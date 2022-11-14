@@ -53,7 +53,7 @@ function App() {
   return (
     <div className="App">
       <div>
-        <h3> Register User - Email and password (7 digits) </h3>
+        <h3> Register User - Email and password (At least twelve digits and special characters @, #, etc.) </h3>
         <input
           placeholder="Email..."
           onChange={(event) => {
